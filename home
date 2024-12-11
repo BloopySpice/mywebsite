@@ -1,4 +1,4 @@
-ge<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -99,10 +99,10 @@ ge<!DOCTYPE html>
 
     <nav>
         <ul>
-            <li><a href="home.html">Home</a></li>
+            <li><a href="home">Home</a></li>
             <li><a href="#">About Me</a></li>
             <li><a href="#">--</a></li>
-            <li><a href="#">--</a></li>
+            <li><a href="?">--</a></li>
         </ul>
     </nav>
 
