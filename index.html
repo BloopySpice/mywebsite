@@ -16,8 +16,8 @@
             --font-body: var(--gh-font-heading, var(--font-system));
         }
     </style>
-
-    <style>
+        
+    <style> /*ref Ben Heater for below -- utilizing his knowledge to learn global settings */
         :root {
             --global-theme-notifications: none; /* flex/none */
             --global-hero-title-colour: var(--colour-primary);
@@ -35,6 +35,22 @@
         }
     </style>
 
+    <script>
+        let preferredTheme = localStorage.getItem('PREFERRED_COLOUR_SCHEME') || themeSettings.defaultColourScheme.toLowerCase();
+        document.documentElement.setAttribute('data-color-scheme', preferredTheme);
+
+        // Global values needed
+        const themeGlobal = {
+            currentPage: parseInt('1'),
+            nextPage: parseInt('2'),
+            nextPageLink: '',
+            maxPages: parseInt('24'), 
+            lastPage: `1` === `24` ? true : false,
+            postsPerPage: parseInt('9'),
+            scrollPos: 0
+        }
+    </script>
+        
     <style>  
         nav {
             background-color: #444;
