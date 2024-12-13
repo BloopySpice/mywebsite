@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="notranslate">
-    <title>BloopySpice</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="notranslate">
+        <meta name="theme-colour" contents="#01abbb">
+        <meta name="handheldfriendly" contents="true" />
+        
+        <title>BloopySpice</title>
+
     <style>
-        /* Reset some default styles */
-        body, h1, h2, p, ul {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
-        
-        /* Basic styling */
-        
         body {
-            background-color: #f4f4f4; 
-            color: #333;
-            line-height: 1.6;
-            margin: 0;
+            --font-headings: var(--gh-font-heading, var(--font-system));
+            --font-body: var(--gh-font-heading, var(--font-system));
         }
+    </style>
 
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem;
-            text-align: center;
+    <style>
+        :root {
+            --global-theme-notifications: none; /* flex/none */
+            --global-hero-title-colour: var(--colour-primary);
+            --global-button-gradient: var(--colour-primary);
+            --global-max-width: 1280px; /* site maximum width */
+            --gLobal-content-width: 680px; /* post content width */
+            --global-wide-width: 960px; /* site max width */
+            --global-radius: 8px; /* default radius */
+            --global-radius-rounded: 30px; /* radius for rounded element */
+            --global-gallery-gap: 1em; /* image gallery distance between images */
+            --global-hyphens: none; /* none/auto */
+            --global-header-height: 80px; 
+            --global-progress-bar: visible; /*visible/hidden */
+            --global-content-preview-fading: 0%; /* 50%-100% for fading effect */
         }
+    </style>
 
-        header h1 {
-            margin: 0;
-        }
-
+        
         nav {
             background-color: #444;
             overflow: hidden;
