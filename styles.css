@@ -6,7 +6,7 @@
 }
 
 .navbar {
-        background: #131313;
+        background: #474747;
         height: 80px;
         display: flex;
         justify-content: center;
@@ -209,7 +209,7 @@
 }
 
 .space__bar {
-        background: #131313;
+        background: #474747;
         height: 40px;
         display: flex;
         justify-content: center;
