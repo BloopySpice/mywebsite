@@ -5,7 +5,7 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-.navbar {
+.navbar { /* First segment on the screen */ 
         background: #252525;
         height: 80px;
         display: flex;
@@ -198,23 +198,43 @@
      }
 }
 
-.space {
-        background: #474749;
-        height: 320px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.2rem;
-        
+.rotation__block {
+    background: #474749;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
 }
 
-.space__bar {
-        background: #252525;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.2rem;
+/*block__container {
+    background: #474749;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+
+}*/
+
+.divider__bar {
+    background: #252525;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
 }
 
+.grid__container {
+    background: #252525;
+    height: 10rem;
+    display: grid;
+    gap: 50px, 50px;
+    font-size: 1.2rem;
+}
 
+.grid__cont1, .grid__cont2, .grid__cont3 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
