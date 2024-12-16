@@ -230,8 +230,18 @@
     background: #252525;
     height: 10rem;
     display: grid;
-    gap: 50px, 50px;
+    gap: 50px;
+    grid-auto-columns: auto;
     font-size: 1.2rem;
+}
+
+.grid__cont1 {
+    background: #474749;
+    height: 10rem;
+    width: 10rem;
+    grid-column-start: auto;
+    grid-column-end: auto;
+
 }
 
 /*.grid__cont1, .grid__cont2, .grid__cont3 {
