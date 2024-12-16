@@ -234,7 +234,7 @@
     font-size: 1.2rem;
 }
 
-.grid__cont1, .grid__cont2, .grid__cont3 {
+/*.grid__cont1, .grid__cont2, .grid__cont3 {
     grid-column-start: 1;
     grid-column-end: 6;
-}
+}*/
