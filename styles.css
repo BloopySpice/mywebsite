@@ -248,3 +248,18 @@
     grid-column-start: 1;
     grid-column-end: 6;
 }*/
+
+#section__logo {
+    background-color: #06ac9e;
+    background-image: linear-gradient(to top, #cbfdf9 0%, #007e74 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-colour: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
