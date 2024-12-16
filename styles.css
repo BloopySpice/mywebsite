@@ -6,7 +6,7 @@
 }
 
 .navbar {
-        background: #474747;
+        background: #252525;
         height: 80px;
         display: flex;
         justify-content: center;
@@ -127,7 +127,7 @@
         z-index: -1;
     }
     .navbar__menu.active {
-        background: #131313;
+        background: #252525;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -199,7 +199,7 @@
 }
 
 .space {
-        background: #525652;
+        background: #474749;
         height: 320px;
         display: flex;
         justify-content: center;
@@ -209,7 +209,7 @@
 }
 
 .space__bar {
-        background: #474747;
+        background: #252525;
         height: 40px;
         display: flex;
         justify-content: center;
