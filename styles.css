@@ -237,9 +237,9 @@
 
 .grid__container {
     height: 10rem;
-    display: grid;
-    gap: 50px;
-    grid-auto-columns: auto;
+    /*  display: grid;
+        gap: 50px;
+        grid-auto-columns: auto; */
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -265,8 +265,8 @@
 #section__label {
     color: #fff;
     display: flex;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: l;
     text-decoration: none;
     padding: 1rem;
     height: 100%;
