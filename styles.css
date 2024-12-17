@@ -232,6 +232,11 @@
     display: grid;
     gap: 50px;
     grid-auto-columns: auto;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
     font-size: 1.2rem;
 }
 
