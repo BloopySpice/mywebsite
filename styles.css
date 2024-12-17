@@ -286,6 +286,6 @@
 .card {
     height: 400px;
     flex: 1 0 400px;
-    width: 400px;
+    max-width: 400px;
     background-color: #06ac9e;
 }
