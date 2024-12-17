@@ -272,7 +272,7 @@
     height: 100%;
 }
 
-.section__label:hover {
+#section__label:hover {
     color: #007e74;
     transition: all 0.3s ease;
 }
