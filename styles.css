@@ -200,9 +200,9 @@
 
 .rotation__block {
     background: #474749;
-    height: 20rem;
+    height: 40rem;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     font-size: 1.2rem;
 }
