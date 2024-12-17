@@ -228,7 +228,7 @@
 
 .grid {
     background: #474749;
-    height: 160px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,8 +265,8 @@
 #section__label {
     color: #fff;
     display: flex;
-    align-items: left;
-    justify-content: left;
+    align-items: center; /* Vertical Position */
+    justify-content: left; /* Horizontal Position */
     text-decoration: none;
     padding: 0, 1rem;
     height: 100%;
