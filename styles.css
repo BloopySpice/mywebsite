@@ -276,3 +276,15 @@
     color: #007e74;
     transition: all 0.3s ease;
 }
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    height: 200px;
+    flex: 1 0 200px;
+    background-color: #06ac9e;
+}
