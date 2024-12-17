@@ -284,8 +284,8 @@
 }
 
 .card {
-    height: 200px;
-    flex: 1 0 200px;
-    min-width: 200px;
+    height: 400px;
+    flex: 1 0 400px;
+    width: 400px;
     background-color: #06ac9e;
 }
