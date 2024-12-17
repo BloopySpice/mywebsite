@@ -23,7 +23,7 @@
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 50px;
 }
@@ -111,7 +111,7 @@
         height: 80px;
         z-index: 1;
         width: 100%;
-        max-width: 1300px;
+        max-width: 1500px;
         padding: 0;
     }
     .navbar__menu {
@@ -242,10 +242,10 @@
         grid-auto-columns: auto; */
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 50px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 /*.grid__cont1 {
