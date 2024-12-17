@@ -241,7 +241,7 @@
 }
 
 .grid__cont1 {
-    background: #474749;
+    background: #252529;
     height: 10rem;
     width: 10rem;
     grid-column-start: auto;
@@ -255,7 +255,7 @@
 }*/
 
 #section__label {
-    background-color: #06ac9e;
+    background-color: #252525;
     background-image: linear-gradient(to top, #252529 0%, #252529 100%);
     background-size: 100%;
     -webkit-background-clip: text;
