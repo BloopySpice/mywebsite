@@ -279,13 +279,14 @@
 
 .cards {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
 }
 
 .card {
-    height: 400px;
-    flex: 1 0 400px;
-    max-width: 400px;
+    height: 300px;
+    /*flex: 1 0 300px;*/
+    max-width: 300px;
     background-color: #06ac9e;
 }
