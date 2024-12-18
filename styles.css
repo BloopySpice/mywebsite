@@ -207,7 +207,7 @@
     font-size: 1.2rem;
 }
 
-/*block__container {
+.block__container {
     background: #474749;
     height: 320px;
     display: flex;
@@ -215,7 +215,7 @@
     align-items: center;
     font-size: 1.2rem;
 
-}*/
+}
 
 .divider__bar {
     background: #252525;
