@@ -311,9 +311,10 @@
     height: 105px;
     margin-bottom: 5px;
     max-width: 105px;
-    background-color: #06ac9e;
+    background-color: #252529;
     border-radius: 10px;
-    z-index: 2;
+    z-index: 3;
+    opacity: 0.5;
 }
 
 /* testing something */
