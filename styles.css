@@ -277,7 +277,7 @@
     transition: all 0.3s ease;
 }
 
-/*.cards {
+.cards {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -307,10 +307,10 @@
     background-color: #06ac9e;
     border-radius: 20px;
     z-index: 2;
-}*/
+}
 
 /* testing something */
-.box {
+/*.box {
     height: 20px 20px;
     background-color: #06ac9e;
 }
@@ -362,4 +362,4 @@
     .card img {
       max-width: 100%;
     }
-  }
+  }/*
