@@ -309,8 +309,8 @@
 
 .card__ii {
     height: 105px;
-    margin: 5px;
-
+    margin-bottom: 5px;
+    margin-right: 5px;
     max-width: 105px;
     background-color: #252529;
     border-radius: 10px;
