@@ -298,10 +298,19 @@
 
 }
 
-.card__inner {
+.card__i {
     height: 115px;
     margin: 5px;
     max-width: 115px;
+    background-color: #06ac9e;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.card__ii {
+    height: 105px;
+    margin-bottom: 5px;
+    max-width: 105px;
     background-color: #06ac9e;
     border-radius: 10px;
     z-index: 2;
