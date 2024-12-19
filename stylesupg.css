@@ -5,6 +5,12 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+.full__body {
+    background-color: #252525;
+    width: 100%;
+}
+
+
 .navbar { /* First segment on the screen */ 
     background: #252525;
     height: 80px;
