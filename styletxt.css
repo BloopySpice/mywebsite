@@ -42,7 +42,7 @@
     font-size: 4rem;
 }
 
-#location__header {
+#main__header__text {
     background-color: #06ac9e;
     background-image: #fff;
     background-size: 100%;
@@ -56,3 +56,4 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 1rem;
+}
