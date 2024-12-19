@@ -6,13 +6,11 @@
 }
 
 .full__body {
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: #252525;
     width: 100%;
     height: 150rem;
-}
-
-#h1 {
-    
 }
 
 .navbar { /* First segment on the screen */ 
