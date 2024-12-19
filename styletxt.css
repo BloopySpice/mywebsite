@@ -60,4 +60,5 @@
 
 #main__header__text:hover {
     background-color: aqua;
+    transition: all 0.3s ease;
 }
