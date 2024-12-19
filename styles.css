@@ -300,6 +300,7 @@
     max-width: 125px;
     background-color: #252529;
     border-radius: 10px;
+    opacity: 0.5;
 
 }
 
@@ -320,6 +321,7 @@
     background-color: #252529;
     border-radius: 10px;
     z-index: 3;
+    opacity: 0.5;
 }
 
 /* testing something */
