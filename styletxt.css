@@ -62,3 +62,18 @@
     background-color: aqua;
     transition: all 0.5s ease;
 }
+
+.optboxlink {
+    background-color: #fff;
+    background-image: #fff;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-colour: transparent;
+    display: flex;
+    align-items: left;
+    justify-content: bottom;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
