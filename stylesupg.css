@@ -234,6 +234,7 @@
 
 .box__opt1 {
     display: flex;
+    padding: 10px;
     height: 200px;
     width: 200px;
     background-color: #474749;
