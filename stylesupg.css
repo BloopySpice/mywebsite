@@ -211,3 +211,25 @@
         transform: translate(0px, -8px) rotate(-45deg);
      }
 }
+
+.option__boxes {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.box__1 {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: #474749;
+
+}
+
+.box__2 {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: #474749;
+}
