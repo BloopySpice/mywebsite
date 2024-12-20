@@ -56,6 +56,7 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+    width: 200px;
 }
 
 #main__header__text:hover {
