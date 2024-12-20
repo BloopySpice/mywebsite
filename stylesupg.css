@@ -217,6 +217,7 @@
 }
 
 .option__boxes {
+    padding-top: 5rem;
     display: flex;
     align-content: center;
     justify-content: center;
