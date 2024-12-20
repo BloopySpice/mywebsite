@@ -212,6 +212,10 @@
      }
 }
 
+.mid_box {
+    padding-top: 5rem;
+}
+
 .option__boxes {
     display: flex;
     align-content: center;
