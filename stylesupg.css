@@ -234,7 +234,7 @@
 
 .box__opt1 {
     display: flex;
-    padding: 10px;
+    margin: 10px;
     height: 400px;
     width: 200px;
     border-radius: 5px;
