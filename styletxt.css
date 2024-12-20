@@ -72,8 +72,7 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-colour: transparent;
     display: flex;
-    align-items: left;
-    justify-content: bottom;
+    justify-content: center;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
