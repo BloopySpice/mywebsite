@@ -216,13 +216,21 @@
     padding-top: 5rem;
 }
 
-.option__boxes {
+.option__boxes__name {
     padding-top: 5rem;
     display: flex;
     align-content: center;
     justify-content: center;
 
 }
+
+.option__boxes {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
 
 .box__opt1 {
     display: flex;
