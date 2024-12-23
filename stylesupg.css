@@ -246,6 +246,12 @@
 }
 
 .box__opt1:hover {
+    background-color: #7a7a7d;
+    height: 410px;
+    width: 260px;
+}
+
+.box__opt1:hover {
     background-color: #7a7a7d
 }
 
@@ -266,6 +272,12 @@
         width: 400px;
         border-radius: 5px;
         background-color: #474749;
+    }
+
+    .box__opt1:hover {
+        background-color: #7a7a7d;
+        height: 210px;
+        width: 410px;
     }
 
     .optboxtxtbox {
