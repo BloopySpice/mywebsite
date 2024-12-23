@@ -260,7 +260,7 @@
     background-color: #474749;
 }
 
-.box__opt1:hover {
+.box__opt2:hover {
     background-color: #7a7a7d;
     height: 210px;
     width: 210px;
@@ -299,7 +299,13 @@
         align-content: center;
         justify-content: center;
         flex-wrap: wrap;
-        flex: 1 0 300px;
-        
+        flex: 1 0 300px; 
+    }
+
+    .box__opt2:hover {
+        background-color: #7a7a7d;
+        height: 210px;
+        width: 210px;
+        margin: 5px;
     }
 }
