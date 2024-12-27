@@ -17,7 +17,7 @@
     z-index: 999;
 }
 
-.navbar__container {
+.nav__container {
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -28,7 +28,7 @@
     padding: 0 50px;
 }
 
-#navbar__logo {
+#nav__logo {
     background-color: #06ac9e;
     background-image: linear-gradient(to top, #cbfdf9 0%, #007e74 100%);
     background-size: 100%;
@@ -53,7 +53,7 @@
     height: 100rem;
 }
 
-.navbar__menu {
+.nav__menu {
     display: flex;
     align-items: center;
     list-style: none;
@@ -61,11 +61,11 @@
 
 }
 
-.navbar__item {
+.nav__item {
     height: 80px;
 }
 
-.navbar__links {
+.nav__links {
     color: #fff;
     display: flex;
     align-items: center;
@@ -77,7 +77,7 @@
     
 }
 
-.navbar__btn {
+.nav__btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,13 +105,13 @@
     transition: all 0.3s ease;
 }
 
-.navbar__links:hover {
+.nav__links:hover {
     color: #007e74;
     transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 960px) {
-    .navbar__container {
+    .nav__container {
         display: flex;
         justify-content: space-between;
         height: 80px;
@@ -120,7 +120,7 @@
         max-width: 1800px;
         padding: 0;
     }
-    .navbar__menu {
+    .nav__menu {
         display: grid;
         grid-template-columns: auto;
         margin: 0;
@@ -132,7 +132,7 @@
         height: 50vh;
         z-index: -1;
     }
-    .navbar__menu.active {
+    .nav__menu.active {
         background: #252525;
         top: 100%;
         opacity: 1;
@@ -142,11 +142,11 @@
         font-size: 1.6rem;
     }
 
-    #navbar__logo {
+    #nav__logo {
         padding-left: 25px;
 
     }
-    .navbar__toggle .bar {
+    .nav__toggle .bar {
         width: 25px;
         height: 3px;
         margin: 5px auto;
@@ -154,11 +154,11 @@
         background: #fff;
     }
 
-    .navbar__item {
+    .nav__item {
         width: 100%;
     }
 
-    .navbar__links {
+    .nav__links {
         text-align: center;
         padding: 2rem;
         width: 100%;
@@ -172,7 +172,7 @@
         transform: translate(5%, 20%);
      }
 
-     .navbar__btn {
+     .nav__btn {
         padding-bottom: 2rem;
      }
 
@@ -185,7 +185,7 @@
         margin: 0;
      }
 
-     .navbar__toggle .bar {
+     .nav__toggle .bar {
         display: block;
         cursor: pointer;
         
