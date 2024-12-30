@@ -279,7 +279,7 @@
 .summary__box {
     display: flex;
     height: 410px;
-    width: 750px;
+    max-width: 770px;
     flex: 1 0 300px; 
     margin: 10px;
     border-radius: 5px;
