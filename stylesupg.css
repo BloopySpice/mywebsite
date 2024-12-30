@@ -334,4 +334,14 @@
         width: 210px;
         margin: 5px;
     }
+
+    .summary__box {
+        display: flex;
+        height: 410px;
+        max-width: 410px;
+        flex: 1 0 300px; 
+        margin: 10px;
+        border-radius: 5px;
+        background-color: #474749;
+    }
 }
