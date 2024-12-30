@@ -274,6 +274,15 @@
     justify-content: center;
 }
 
+.summary__box {
+    display: flex;
+    height: 410px;
+    width: 1200px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #474749;
+}
+
 
 @media screen and (max-width: 960px) {
     
