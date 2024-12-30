@@ -78,3 +78,22 @@
     text-decoration: none;
     font-size: 2rem;
 }
+
+
+@media screen and (max-width: 960px) {
+    #main__header__text {
+        background-color: #fff;
+        background-image: #fff;
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-colour: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 3.5rem;
+    }
+}
