@@ -343,7 +343,8 @@
         flex-wrap: wrap;
         height: 200px;
         margin: 10px;
-        width: 400px;
+        min-width: 170px;
+        max-width: 400px;
     }
 
     .project__box__options:hover {
@@ -378,7 +379,7 @@
         background-color: #474749;
         border-radius: 5px;
         display: flex;
-        flex: 1 0 300px; 
+        flex: 1 0 170px; 
         height: 410px;
         margin: 10px;
         max-width: 400px;
