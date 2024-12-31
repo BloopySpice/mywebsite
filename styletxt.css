@@ -63,7 +63,7 @@
     transition: all 3s ease-in-out;
 }
 
-.optboxlink {
+#optboxlink {
     background-color: #fff;
     background-image: #fff;
     background-size: 100%;
