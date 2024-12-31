@@ -192,8 +192,8 @@
 
     #mobile-menu {
         position: absolute;
-        top: 20%;
         right: 5%;
+        top: 20%;
         transform: translate(5%, 20%);
     }
 
@@ -202,17 +202,17 @@
     }
 
     .button {
-        display: flex;
-        justify-content: center;
         align-items: center;
-        width: 80%;
+        display: flex;
         height: 80px;
+        justify-content: center;
         margin: 0;
+        width: 80%;
     }
 
     .nav__toggle .bar {
-        display: block;
         cursor: pointer;
+        display: block;
     }
  
     /* - Animations with js for drop down nav bar */
@@ -237,25 +237,25 @@
 /* || MID - PROJECTS || */
 
 .mid__body {
-    padding-top: 5rem;
     align-content: center;
     justify-content: center;
+    padding-top: 5rem;
 }
 
 .project__box__spacer {
+    height: 100px;
     padding-top: 330px;
     width: 100%;
-    height: 100px;
 }
 
 /* !! THIS REQUIRES MOVING !! */
 /* BELOW */
 
 .header__box {
-    padding-top: 5rem;
-    display: flex;
     align-content: center;
+    display: flex;
     justify-content: center;
+    padding-top: 5rem;
 }
 
 /* ABOVE */
@@ -263,50 +263,50 @@
 
 
 .project__box__container {
-    display: flex;
     align-content: center;
+    display: flex;
     justify-content: center;
 }
 
 .project__box__options {
-    display: flex;
-    margin: 10px;
-    height: 400px;
-    width: 250px;
-    border-radius: 5px;
     background-color: #474749;
+    border-radius: 5px;
+    display: flex;
+    height: 400px;
+    margin: 10px;
+    width: 250px;
 }
 
 .project__box__options:hover {
     background-color: #7a7a7d;
     height: 410px;
-    width: 260px;
     margin: 5px;
+    width: 260px;
 }
 
 .project__box__options__selection {
+    background-color: #474749;
+    border-radius: 5px;
     display: flex;
     height: 200px;
-    width: 200px;
     margin: 10px;
-    border-radius: 5px;
-    background-color: #474749;
+    width: 200px;
 }
 
 .project__box__options__selection:hover {
     background-color: #7a7a7d;
     height: 210px;
-    width: 210px;
     margin: 5px;
+    width: 210px;
 }
 
 /* !! THIS REQUIRES MOVING !! */
 /* BELOW */
 
 .main__header__holder {
+    align-content: center;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
     justify-content: center;
 }
 
@@ -326,8 +326,8 @@
 }
 
 .summary__container {
-    display: flex;
     align-content: center;
+    display: flex;
     justify-content: center;
 }
 
@@ -335,50 +335,50 @@
 @media screen and (max-width: 960px) {
     
     .project__box__options {
+        background-color: #474749;
+        border-radius: 5px;
         display: flex;
         flex-wrap: wrap;
-        margin: 10px;
         height: 200px;
+        margin: 10px;
         width: 400px;
-        border-radius: 5px;
-        background-color: #474749;
     }
 
     .project__box__options:hover {
         background-color: #7a7a7d;
         height: 210px;
-        width: 410px;
         margin: 5px;
+        width: 410px;
     }
 
     .project__box__spacer {
+        height: 100px;
         padding-top: 140px;
         width: 100%;
-        height: 100px;
     }
 
     .project__box__container {
-        display: flex;
         align-content: center;
-        justify-content: center;
+        display: flex;
         flex-wrap: wrap;
         flex: 1 0 300px; 
+        justify-content: center;
     }
 
     .project__box__options__selection:hover {
         background-color: #7a7a7d;
         height: 210px;
-        width: 210px;
         margin: 5px;
+        width: 210px;
     }
 
     .summary__box {
-        display: flex;
-        height: 410px;
-        max-width: 400px;
-        flex: 1 0 300px; 
-        margin: 10px;
-        border-radius: 5px;
         background-color: #474749;
+        border-radius: 5px;
+        display: flex;
+        flex: 1 0 300px; 
+        height: 410px;
+        margin: 10px;
+        max-width: 400px;
     }
 }
