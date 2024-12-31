@@ -20,6 +20,13 @@
 /* || NAVIGATION BAR || */
 /* -  - */
 
+.square {
+    width: 20px;
+    height: 20px;
+    border: 2px;
+    border-color: #06ac9e;
+}
+
 .navbar {
     align-items: center;
     background: #252525;
@@ -233,6 +240,21 @@
 /* || HEADER || */
 
 
+.header__box {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+
+.main__header__holder {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 /* || MID - PROJECTS || */
 
@@ -247,20 +269,6 @@
     padding-top: 330px;
     width: 100%;
 }
-
-/* !! THIS REQUIRES MOVING !! */
-/* BELOW */
-
-.header__box {
-    align-content: center;
-    display: flex;
-    justify-content: center;
-    padding-top: 5rem;
-}
-
-/* ABOVE */
-/* !! THIS REQUIRES MOVING !! */
-
 
 .project__box__container {
     align-content: center;
@@ -307,19 +315,6 @@
     margin: 5px;
     width: 210px;
 }
-
-/* !! THIS REQUIRES MOVING !! */
-/* BELOW */
-
-.main__header__holder {
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-/* !! THIS REQUIRES MOVING !! */
-/* ABOVE */
 
 /* || MID - INFO BOX || */
 
