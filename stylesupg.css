@@ -25,7 +25,28 @@
     height: 20px;
     border: 2px;
     border-color: #06ac9e;
+
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
 }
+
+.square:hover {
+    animation-play-state: running;
+}
+
+@keyframes spin {
+    0% {
+
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+
+}
+
 
 .navbar {
     align-items: center;
