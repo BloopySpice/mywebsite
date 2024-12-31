@@ -285,6 +285,13 @@
     width: 260px;
 }
 
+.project__box__selection__container {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .project__box__options__selection {
     background-color: #474749;
     border-radius: 5px;
