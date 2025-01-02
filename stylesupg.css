@@ -107,7 +107,7 @@
     z-index: 10;
     
     animation-name: spin;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
     /* animation-play-state: paused; */
     animation-timing-function: linear;
