@@ -44,7 +44,7 @@
     justify-self: center;
     box-shadow: 0 0 8px aqua, 0 0 8px aqua inset;
     z-index: 10;
-    border-radius: 15px;
+    border-radius: 5px;
     
     animation-name: spin;
     animation-duration: 4s;
