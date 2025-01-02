@@ -205,9 +205,9 @@
         z-index: 99;
     }
 
-    #nav__logo {
+    /* #nav__logo {
         padding-left: 25px;
-    }
+    } */
     
     .nav__toggle .bar {
         background: #fff;
