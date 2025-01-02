@@ -322,6 +322,13 @@
     width: 100%;
 }
 
+.project__box__container__balan {
+    align-content: center;
+    display: flex;
+    max-width: 800px;
+    justify-content: center;
+}
+
 .project__box__container {
     align-content: center;
     display: flex;
@@ -374,6 +381,7 @@
         width: 500px;
     }
 }
+
 
 .project__box__selection__container {
     align-content: center;
