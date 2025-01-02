@@ -25,6 +25,7 @@
     height: 40px;
     border: 4px solid aqua;
     margin: 20px;
+    align-content: center;
     box-shadow: 0 0 8px aqua, 0 0 8px aqua inset;
     z-index: 10;
     border-radius: 5px;
@@ -40,7 +41,7 @@
     width: 20px;
     height: 20px;
     border: 4px solid aqua;
-    padding: 12px;
+    justify-self: center;
     box-shadow: 0 0 8px aqua, 0 0 8px aqua inset;
     z-index: 10;
     border-radius: 5px;
