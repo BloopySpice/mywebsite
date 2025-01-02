@@ -44,7 +44,7 @@
     justify-self: center;
     box-shadow: 0 0 8px aqua, 0 0 8px aqua inset;
     z-index: 10;
-    border-radius: 5px;
+    border-radius: 15px;
     
     animation-name: spin;
     animation-duration: 4s;
@@ -76,10 +76,10 @@
     width: 200px;
     height: 200px;
     border: 4px solid aqua;
-    margin: 20px;
+    align-content: center;
     box-shadow: 0 0 8px aqua, 0 0 8px aqua inset;
     z-index: 10;
-    border-radius: 5px;
+    border-radius: 8px;
     
     animation-name: spin;
     animation-duration: 5s;
@@ -92,13 +92,13 @@
     width: 150px;
     height: 150px;
     border: 4px solid aqua;
-    padding: 12px;
+    justify-self: center;
     box-shadow: 0 0 8px aqua, 0 0 8px aqua inset;
     z-index: 10;
-    border-radius: 5px;
+    border-radius: 15px;
     
     animation-name: spin;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     /* animation-play-state: paused; */
     animation-timing-function: linear;
