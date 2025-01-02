@@ -325,7 +325,6 @@
 .project__box__container__balan {
     align-content: center;
     display: flex;
-    max-width: 800px;
     justify-content: center;
 }
 
