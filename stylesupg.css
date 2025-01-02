@@ -30,16 +30,16 @@
     border-radius: 5px;
     
     animation-name: spin;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     /* animation-play-state: paused; */
     animation-timing-function: linear;
 }
 
-.square:hover {
+/* .square:hover {
     /* animation-play-state: running; */
-    animation-direction: reverse;
-}
+    /* animation-direction: reverse;
+} */
 
 @keyframes spin {
     0% {
