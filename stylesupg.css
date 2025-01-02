@@ -69,6 +69,51 @@
 
 }
 
+/* BIG VERSIONS -- COMING SOON PAGE */
+
+.square__big {
+    width: 200px;
+    height: 200px;
+    border: 4px solid aqua;
+    margin: 20px;
+    box-shadow: 0 0 8px aqua, 0 0 8px aqua inset;
+    z-index: 10;
+    border-radius: 5px;
+    
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* animation-play-state: paused; */
+    animation-timing-function: linear;
+}
+
+.square__big__small {
+    width: 150px;
+    height: 150px;
+    border: 4px solid aqua;
+    padding: 12px;
+    box-shadow: 0 0 8px aqua, 0 0 8px aqua inset;
+    z-index: 10;
+    border-radius: 5px;
+    
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    /* animation-play-state: paused; */
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+
+
+
+
+
+
+
+
+
+
 .logo__badge {
     align-items: center;
     display: flex;
