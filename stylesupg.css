@@ -325,8 +325,15 @@
 .project__box__container {
     align-content: center;
     display: flex;
+    max-width: 800px;
     justify-content: center;
 }
+
+/* .project__box__container {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+} */
 
 .project__box__options {
     background-color: #474749;
@@ -343,6 +350,29 @@
     height: 410px;
     margin: 5px;
     width: 260px;
+    z-index: 101;
+    
+    animation-name: box-expand-middle;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+/* .project__box__options:hover {
+    background-color: #7a7a7d;
+    height: 410px;
+    margin: 5px;
+    width: 260px;
+} */
+
+@keyframes box-expand-middle {
+    0% {
+        width: 250px;   
+    }
+
+    100% {
+        width: 500px;
+    }
 }
 
 .project__box__selection__container {
