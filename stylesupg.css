@@ -265,6 +265,10 @@
 
 /* || HEADER || */
 
+.header__container {
+    justify-content: center;
+    padding-top: 5rem;
+}
 
 .header__box {
     align-content: center;
@@ -411,5 +415,93 @@
         height: 410px;
         margin: 10px;
         max-width: 400px;
+    }
+}
+
+/* || TYPOLOGY || */
+
+
+#small__text__size {
+    align-items: center;
+    background-color: #06ac9e;
+    background-image: #fff;
+    background-size: 100%;
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-colour: transparent;
+}
+
+#big__text__size {
+    align-items: center;
+    background-color: #fff;
+    background-image: #fff;
+    background-size: 100%;
+    display: flex;
+    font-size: 4rem;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-colour: transparent;
+}
+
+#medium__text__size {
+    align-items: center;
+    background-color: #06ac9e;
+    background-image: #fff;
+    background-size: 100%;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-colour: transparent;
+}
+
+/* #big__text__size:hover {
+    background-color: aqua;
+    transition: all 3s ease-in-out;
+} */
+
+#optboxlink {
+    background-color: #fff;
+    background-image: #fff;
+    background-size: 100%;
+    cursor: pointer;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-colour: transparent;
+}
+
+
+@media screen and (max-width: 960px) {
+    #big__text__size {
+        align-items: center;
+        background-color: #fff;
+        background-image: #fff;
+        background-size: 100%;
+        display: flex;
+        font-size: 4rem;
+        justify-content: center;
+        text-decoration: none;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-colour: transparent;
     }
 }
