@@ -52,6 +52,11 @@
 
 }
 
+.logo__badge {
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
 
 .navbar {
     align-items: center;
