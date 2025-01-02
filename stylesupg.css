@@ -341,6 +341,15 @@
     justify-content: center;
 } */
 
+.project__box__options {
+    background-color: #474749;
+    border-radius: 5px;
+    display: flex;
+    height: 400px;
+    margin: 10px;
+    text-decoration: none;
+    width: 250px;
+}
 
 .project__box__options:hover {
     background-color: #7a7a7d;
