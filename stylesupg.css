@@ -360,7 +360,7 @@
         z-index: 101;
         
         animation-name: box-expand-middle;
-        animation-duration: 1s;
+        animation-duration: 0.8s;
         animation-fill-mode: forwards;
         animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
     }
@@ -375,13 +375,14 @@
 
 @keyframes box-expand-middle {
     0% {
-        width: 250px;   
+        width: 260px;   
     }
 
     100% {
-        width: 500px;
+        width: 800px;
     }
 }
+
 
 
 .project__box__selection__container {
