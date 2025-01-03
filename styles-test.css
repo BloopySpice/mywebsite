@@ -369,11 +369,11 @@
     justify-content: center;
     padding-top: 30%;
 
-    animation-name: drop;
+    /* animation-name: drop;
     animation-duration: 0.5s;
-    /* animation-play-state: paused; */
+    / animation-play-state: paused; /
     animation-timing-function: linear;
-    animation-direction: forward;
+    animation-direction: forward; */
 }
 
 .header__box {
@@ -395,7 +395,7 @@
     height: 800px;
 }
 
-@keyframes drop {
+/* @keyframes drop {
     0% {
         padding: 0%;
         height: 0%;
@@ -405,7 +405,7 @@
         padding: 30%;
     }
 
-}
+} */
 
 
 
