@@ -688,3 +688,26 @@
         -moz-text-fill-colour: transparent;
     }
 }
+
+
+/* TESTING FADE IN PAGE */
+
+.square1 {
+    width: 200px;
+    height: 200px;
+    background: teal;
+    border-radius: 8px;
+    opacity: 0;
+    transform: scale(1.2);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .square1 {
+    transition: opacity 1.5s ease, transform 1.5s ease;
+  }
+}
+
+.square1-transition {
+    opacity: 1;
+    transform: none;
+}
