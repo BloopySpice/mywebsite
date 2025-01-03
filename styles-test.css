@@ -370,7 +370,7 @@
     padding-top: 250px;
 
     animation-name: drop;
-    animation-duration: 2s;
+    animation-duration: 0.5s;
     /* animation-play-state: paused; */
     animation-timing-function: linear;
     animation-direction: forward;
