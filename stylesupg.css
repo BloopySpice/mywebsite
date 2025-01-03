@@ -445,7 +445,7 @@
 }
 
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 960px) {
     .project__box__options:hover {
         background-color: #7a7a7d;
         height: 410px;
