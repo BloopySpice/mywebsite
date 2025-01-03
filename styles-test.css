@@ -366,14 +366,14 @@
 
 .header__container {
     justify-content: center;
-    padding-top: 5rem;
+    padding-top: 250px;
 }
 
 .header__box {
     align-content: center;
     display: flex;
     justify-content: center;
-    padding-top: 5rem;
+    padding-top: 50px;
 }
 
 
@@ -384,7 +384,9 @@
     justify-content: center;
 }
 
-
+.header__body {
+    height: 800px;
+}
 
 
 
