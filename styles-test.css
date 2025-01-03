@@ -21,7 +21,7 @@
 
 .full__body {
     background-color: #252525;
-    height: 150rem;
+    height: 100%;
     padding-left: 10%;
     padding-right: 10%;
     width: 100%;
@@ -362,11 +362,18 @@
 
 
 
+
 /* || HEADER || */
 
 .header__container {
     justify-content: center;
     padding-top: 250px;
+
+    animation-name: drop;
+    animation-duration: 2s;
+    /* animation-play-state: paused; */
+    animation-timing-function: linear;
+    animation-direction: forward;
 }
 
 .header__box {
@@ -387,6 +394,19 @@
 .header__body {
     height: 800px;
 }
+
+@keyframes drop {
+    0% {
+        padding: 0%;
+        height: 0%;
+    }
+
+    100% {
+        padding: 20%;
+    }
+
+}
+
 
 
 
