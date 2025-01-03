@@ -367,7 +367,7 @@
 
 .header__container {
     justify-content: center;
-    padding-top: 250px;
+    padding-top: 30%;
 
     animation-name: drop;
     animation-duration: 0.5s;
