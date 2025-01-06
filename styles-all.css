@@ -36,6 +36,7 @@
 
 
 
+
 /* || NAVIGATION BAR || */
 
 /* - ANIMATED SQUARES - */
@@ -94,6 +95,7 @@
 
 
 
+
 /* ANIMATED BIGGER SQUARES */
 /* BIG VERSIONS -- COMING SOON PAGE */
 
@@ -130,6 +132,7 @@
     animation-timing-function: linear;
     animation-direction: reverse;
 }
+
 
 
 
@@ -226,6 +229,7 @@
     text-decoration: none;
     width: 100%;
 }
+
 
 
 
@@ -368,6 +372,7 @@
 
 
 
+
 /* || HEADER || */
 
 .header__container {
@@ -381,7 +386,6 @@
     justify-content: center;
     padding-top: 50px;
 }
-
 
 .main__header__holder {
     align-content: center;
@@ -404,6 +408,11 @@
     }
 
 }
+
+
+
+
+
 
 
 
@@ -461,7 +470,6 @@
     z-index: 101;
 }*/
 
-
 @media screen and (min-width: 960px) {
 
     .project__box__options:not(:hover) { /* This mirror opertation is running as **not** and is for after hover effect */
@@ -484,9 +492,7 @@
         animation-name: box-expand-middle;
         animation-duration: 0.2s;
     }
-    
 }
-
 
 /* .project__box__options:hover {
     background-color: #7a7a7d;
@@ -494,7 +500,6 @@
     margin: 5px;
     width: 260px;
 } */
-
 
 @keyframes box-expand-middle {
     0% {
@@ -513,8 +518,6 @@
         width: 250px;
     }
 }
-
-
 
 .project__box__selection__container {
     align-content: center;
@@ -548,6 +551,7 @@
 
 
 
+
 /* || MID - INFO BOX || */
 
 .summary__box {
@@ -565,6 +569,7 @@
     display: flex;
     justify-content: center;
 }
+
 
 
 
@@ -628,6 +633,7 @@
         max-width: 400px;
     }
 }
+
 
 
 
@@ -707,7 +713,6 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-colour: transparent;
 }
-
 
 @media screen and (max-width: 960px) {
     #big__text__size {
