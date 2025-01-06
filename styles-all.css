@@ -486,7 +486,7 @@
 
 @keyframes box-expand-middle {
     0% {
-        width: 260px;   
+        width: 250px;   
     }
 
     100% {
@@ -500,7 +500,7 @@
     }
 
     100% {
-        width: 260px;
+        width: 250px;
     }
 }
 
