@@ -1,0 +1,56 @@
+
+
+ANIMATIONS WITH MORE THAN 1 STEP:
+Utilizing keyframes, animations and elements
+	A name is required to allow the css element to be connected
+	to a *keyframes*
+		"animation-name: ** ;"
+
+	Duration is how long from start the finish the animation
+	takes (recorded in seconds)
+		"animation-duration: **s ;"
+
+	How the animation performes
+		"animation-timing-function: ** ;"
+			linear
+			ease
+			ease-in
+			ease-in-out
+
+	The delay time before an animation can start
+	(recorded in seconds)
+		"animation-delay: **s ;"
+
+	The quantity of times the animation loops
+		"animation-iteration-count: ;"
+			"number"
+			infinite
+
+	The direction in which the animation occurs
+		"animation-direction: ** ;"
+			reverse
+			alternate
+
+	The state the element is left in after the animation ends
+		"animation-fill-mode: ;"
+			forwards
+
+	Self explanatory, running is go and paused is stop
+		"animation-play-state: ;"
+			running
+			paused
+
+KEYFRAMES 
+
+		@keyframes (ani-name) {
+			0% {
+
+			}
+			
+			100% {
+			
+			}
+
+
+
+If 1 step, hover function with transition works
