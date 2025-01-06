@@ -22,10 +22,12 @@
 .full__body {
     background-color: #252525;
     height: 100%;
+    min-height: 80rem;
     padding-left: 10%;
     padding-right: 10%;
     width: 100%;
 }
+
 
 
 
