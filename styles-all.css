@@ -261,8 +261,8 @@
 
 .button.round {
     align-items: center;
-    background: #b15001;
-    border-radius: 50px;
+    background: #E91E63;
+    border-radius: 30px;
     border: none;
     color: #fff;
     display: flex;
@@ -272,9 +272,7 @@
     padding: 10px 20px;
     text-decoration: none;
     width: 100%;
-
 }
-
 
 
 

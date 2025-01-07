@@ -32,9 +32,9 @@ menu.addEventListener('click', function() {
 })
 
 
-const button = document.querySelector('.nav__btn');
-button.addEventListener('click', function() {
-    button.classList.toggle('round');
+const redbutton = document.querySelector('.button');
+redbutton.addEventListener('click', function() {
+    redbutton.classList.toggle('round');
 })
 
 /* || EXPLANATION ||
