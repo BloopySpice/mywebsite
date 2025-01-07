@@ -243,13 +243,13 @@
 /* || NAVIGATION BAR - HOVER ANIMATIONS || */
 
 .button:hover {
-    transform: scale(1.2);
-    transition: 0.5s transform ease-in-out;
+    transform: scale(1.1);
+    transition: 0.2s transform ease-in-out;
 }
   
 .button:not(:hover) {
     transform: scale(1);
-    transition: 0.5s transform ease-in-out;
+    transition: 0.2s transform ease-in-out;
 }
 
 .nav__links:hover {
