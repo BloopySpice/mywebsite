@@ -30,3 +30,10 @@ menu.addEventListener('click', function() {
     menu.classList.toggle('is-active');
     menuLinks.classList.toggle('active');
 })
+
+/* || EXPLANATION ||
+
+There are two constant variables, "menu" and "menuLinks". These two variables have been 
+assigned CSS elements ("#mobile-menu" + ".nav__menu"). Using an "addEventListener", we 
+added a click function that changes the CSS id (#) and element (.) allowing the css code
+to change.
