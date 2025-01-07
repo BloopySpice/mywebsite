@@ -259,6 +259,22 @@
 
 
 
+.button.round {
+    align-items: center;
+    background: #b15001;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    outline: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 100%;
+
+}
+
 
 
 

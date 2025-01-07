@@ -31,6 +31,12 @@ menu.addEventListener('click', function() {
     menuLinks.classList.toggle('active');
 })
 
+
+const button = document.querySelector('.nav__btn');
+button.addEventListener('click', function() {
+    button.classList.toggle('round');
+})
+
 /* || EXPLANATION ||
 
 There are two constant variables, "menu" and "menuLinks". These two variables have been 
