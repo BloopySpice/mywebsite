@@ -675,6 +675,7 @@
 
 #big__text__size {
     align-items: center;
+    font-weight: bold;
     background-color: #fff;
     background-image: #fff;
     background-size: 100%;
@@ -692,7 +693,7 @@
 
 #medium__text__size {
     align-items: center;
-    background-color: #06ac9e;
+    background-color: #fff;
     background-image: #fff;
     background-size: 100%;
     display: flex;
