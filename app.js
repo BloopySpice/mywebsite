@@ -1,6 +1,8 @@
 /* 
 
 || JAVA DROP DOWN MENU ||
+Due to 
+
 
     || CONST ||
     "const" a variable that does not change, eg cannot be redeclared or reassigned (constant)
@@ -22,6 +24,8 @@
     ".toggle" is an "classList" selector enabling the elements CSS class names to be changed
 
 */
+ 
+/* || MOBILE MENU DROP DOWN || */
 
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.nav__menu');
@@ -31,13 +35,7 @@ menu.addEventListener('click', function() {
     menuLinks.classList.toggle('active');
 })
 
-
-const redbutton = document.querySelector('.button');
-redbutton.addEventListener('click', function() {
-    redbutton.classList.toggle('round');
-})
-
-/* || EXPLANATION ||
+/* || ^ EXPLANATION ^ ||
 
 There are two constant variables, "menu" and "menuLinks". These two variables have been 
 assigned CSS elements ("#mobile-menu" + ".nav__menu"). Using an "addEventListener", we 
@@ -45,3 +43,11 @@ added a click function that changes the CSS id (#) and element (.) allowing the 
 to change.
 
 */
+
+/* || COLOUR CHANGING BUTTON || */
+
+const redbutton = document.querySelector('.button');
+redbutton.addEventListener('click', function() {
+    redbutton.classList.toggle('round');
+})
+

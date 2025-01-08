@@ -741,3 +741,15 @@
         -moz-text-fill-colour: transparent;
     }
 }
+
+
+/* test */
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+}
