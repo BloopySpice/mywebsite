@@ -1,4 +1,23 @@
 
+RULES:
+
+header
+div
+section
+article
+figure
+aside
+nav
+footer
+
+
+main
+	body
+		sector
+			section
+				container
+					wrapper
+						holder
 
 ANIMATIONS WITH MORE THAN 1 STEP:
 Utilizing keyframes, animations and elements
