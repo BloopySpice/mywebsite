@@ -467,7 +467,7 @@
     border-radius: 5px;
     padding: 20px;
     margin: 20px;
-    box-shadow: 0 0 4px #7a7a7d;
+    box-shadow: 0 0 2px #7a7a7d;
 }
 
 .showcase__box__internal__left {
@@ -547,7 +547,7 @@
         z-index: 101;
         animation-name: box-expand-middle-reverse;
         animation-duration: 0.2s;
-        box-shadow: 0 0 4px #7a7a7d;
+        box-shadow: 0 0 2px #7a7a7d;
     }
     
     .project__box__options:hover {
@@ -559,7 +559,7 @@
 
         animation-name: box-expand-middle;
         animation-duration: 0.2s;
-        box-shadow: 0 0 4px #7a7a7d;
+        box-shadow: 0 0 2px #7a7a7d;
     }
 }
 
