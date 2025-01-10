@@ -27,6 +27,7 @@ Due to
  
 /* || MOBILE MENU DROP DOWN || */
 
+/*
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.nav__menu');
 
@@ -51,3 +52,10 @@ redbutton.addEventListener('click', function() {
     redbutton.classList.toggle('round');
 })
 
+const leftmenu = document.querySelector('#mobile-menu');
+const leftmenuLinks = document.querySelector('.nav__menu');
+
+menu.addEventListener('click', function() {
+    leftmenu.classList.toggle('is-active');
+    leftmenuLinks.classList.toggle('active');
+})

@@ -321,11 +321,97 @@
 /* || MOBILE MENU - NAVIGATION BAR || */
 
 
+.nav__container {
+    height: 80px;
+    max-width: 1440px;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav__menu {
+    display: grid;
+    grid-template-columns: auto;
+    height: 50vh;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    top: -1000px;
+    transition: all 0.5s ease;
+    width: 100%;
+    z-index: -1;
+}
+
+.nav__menu.active {
+    background: #252525;
+    font-size: 1.6rem;
+    height: 50vh;
+    opacity: 1;
+    top: 100%;
+    transition: all 0.5s ease;
+    z-index: 99;
+}
+
+.nav__toggle .bar {
+    background: #fff;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    width: 25px;
+}
+
+.nav__item {
+    width: 100%;
+}
+
+.nav__links {
+    display: table;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+#mobile-menu {
+    position: absolute;
+    left: 5%; 
+    top: 20%;
+    transform: translate(5%, 20%);
+}
+
+.nav__btn {
+    padding-top: 12px;
+}
+
+.nav__toggle .bar {
+    cursor: pointer;
+    display: block;
+}
+
+/* - Animations with js for drop down nav bar */
+
+#mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+}     
+
+#mobile-menu.is-active .bar:nth-child(1) {
+    transform: translate(0px, 8px) rotate(45deg);
+}
+
+#mobile-menu.is-active .bar:nth-child(3) {
+    transform: translate(0px, -8px) rotate(-45deg);
+}
+
+
+
+
+
+/*@media screen and (max-width: 960px) {
 
     .nav__container {
-
+        display: flex;
         height: 80px;
-        max-width: 1440px;
+        justify-content: space-between;
+        max-width: 1800px;
         padding: 0;
         width: 100%;
         z-index: 1;
@@ -375,13 +461,22 @@
 
     #mobile-menu {
         position: absolute;
-        left: 5%; 
+        right: 5%;
         top: 20%;
         transform: translate(5%, 20%);
     }
 
     .nav__btn {
-        padding-top: 12px;
+        padding-bottom: 2rem;
+    }
+
+    .button {
+        align-items: center;
+        display: flex;
+        height: 80px;
+        justify-content: center;
+        margin: 0;
+        width: 80%;
     }
 
     .nav__toggle .bar {
@@ -390,7 +485,7 @@
     }
  
     /* - Animations with js for drop down nav bar */
-
+/*
     #mobile-menu.is-active .bar:nth-child(2) {
         opacity: 0;
     }     
@@ -402,8 +497,7 @@
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translate(0px, -8px) rotate(-45deg);
     }
-
-
+}*/
 
 
 
@@ -851,3 +945,5 @@
     filter: blur(0px);
     transform: translateX(0%);
 }
+
+
