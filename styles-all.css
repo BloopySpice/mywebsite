@@ -539,12 +539,14 @@
 
 @media screen and (min-width: 960px) {
 
-    .project__box__options:not(:hover) { /* This mirror opertation is running as **not** and is for after hover effect */
+    .project__box__options:not(:hover) { /* This mirror operatation is running as **not** and is for after hover effect */
         background-color: #474749;
         height: 400px;
         margin: 10px;
         width: 250px;
         z-index: 101;
+
+
         animation-name: box-expand-middle-reverse;
         animation-duration: 0.2s;
         box-shadow: 0 0 2px #7a7a7d;
@@ -556,6 +558,7 @@
         margin: 5px;
         width: 800px;
         z-index: 101;
+
 
         animation-name: box-expand-middle;
         animation-duration: 0.2s;
