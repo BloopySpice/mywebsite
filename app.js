@@ -27,14 +27,14 @@ Due to
  
 /* || MOBILE MENU DROP DOWN || */
 
-/*
-const menu = document.querySelector('#mobile-menu');
-const menuLinks = document.querySelector('.nav__menu');
 
-menu.addEventListener('click', function() {
-    menu.classList.toggle('is-active');
-    menuLinks.classList.toggle('active');
-})
+// const menu = document.querySelector('#mobile-menu');
+// const menuLinks = document.querySelector('.nav__menu');
+
+// menu.addEventListener('click', function() {
+//     menu.classList.toggle('is-active');
+//     menuLinks.classList.toggle('active');
+// })
 
 /* || ^ EXPLANATION ^ ||
 
@@ -47,15 +47,17 @@ to change.
 
 /* || COLOUR CHANGING BUTTON || */
 
-const redbutton = document.querySelector('.button');
-redbutton.addEventListener('click', function() {
-    redbutton.classList.toggle('round');
-})
+// const redbutton = document.querySelector('.button');
+// redbutton.addEventListener('click', function() {
+//     redbutton.classList.toggle('round');
+// })
 
-const leftmenu = document.querySelector('#mobile-menu');
-const leftmenuLinks = document.querySelector('.nav__menu');
+const leftMenu = document.querySelector('#mobile-menu');
+const leftMenuLinks = document.querySelector('.nav__menu');
+const leftMenuBar = document.querySelector('.leftmenu__container');
 
-menu.addEventListener('click', function() {
-    leftmenu.classList.toggle('is-active');
-    leftmenuLinks.classList.toggle('active');
+leftMenu.addEventListener('click', function() {
+    leftMenu.classList.toggle('is-active');
+    // leftMenuLinks.classList.toggle('active');
+    leftMenuBar.classList.toggle('out');
 })
