@@ -28,12 +28,45 @@ Due to
 /* || MOBILE MENU DROP DOWN || */
 
 
-// const menu = document.querySelector('#mobile-menu');
-// const menuLinks = document.querySelector('.nav__menu');
+const menu = document.querySelector('#mobile-menu');
+const menuLinks = document.querySelector('.nav__menu');
 
-// menu.addEventListener('click', function() {
-//     menu.classList.toggle('is-active');
-//     menuLinks.classList.toggle('active');
+
+// const menuBar = document.querySelector('.mysidebar')
+
+menu.addEventListener('click', function() {
+    menu.classList.toggle('is-active');
+
+    document.getElementById("mysidebar").style.width = "250px";
+    // menuBar.classList.toggle('open');
+
+
+
+    // menuLinks.classList.toggle('active');
+
+// openNav()
+    // document.getElementById("mysidebar").style.width = "250px";
+
+
+// closeNav()
+//     document.getElementById("mysidebar").style.width = "0";
+})
+
+//  const menuActive = document.querySelector('.nav__toggle');
+
+//  menuActive.addEventListener('click', function() {
+//     // menuActive.classList.remove('is-active');
+//     document.getElementById("mysidebar").style.width = "0px";
+// })
+
+
+// const menuClose = document.querySelector('#mobile-menu-close');
+// const menuLinksClose = document.querySelector('.nav__menuclose');
+
+// menuClose.addEventListener('click', function() {
+//     menuClose.classList.remove('is-active');
+
+//     document.getElementById("mysidebar").style.width = "0";
 // })
 
 /* || ^ EXPLANATION ^ ||
@@ -52,12 +85,26 @@ to change.
 //     redbutton.classList.toggle('round');
 // })
 
-const leftMenu = document.querySelector('#mobile-menu');
-const leftMenuLinks = document.querySelector('.nav__menu');
-const leftMenuBar = document.querySelector('.leftmenu__container');
+// const leftMenu = document.querySelector('#mobile-menu');
+// const leftMenuLinks = document.querySelector('.nav__menu');
+// const leftMenuBar = document.querySelector('.leftmenu__container');
 
-leftMenu.addEventListener('click', function() {
-    leftMenu.classList.toggle('is-active');
-    // leftMenuLinks.classList.toggle('active');
-    leftMenuBar.classList.toggle('out');
-})
+// leftMenu.addEventListener('click', function() {
+//     leftMenu.classList.toggle('is-active');
+//     // leftMenuLinks.classList.toggle('active');
+//     leftMenuBar.classList.toggle('out');
+// })
+
+// const menu = document.querySelector('#mobile-menu');
+// const menuLinks = document.querySelector('.nav__menu');
+// sidemenu.addEventListener('click', function() {
+
+    // openNav()
+    //      document.getElementById("mysidebar").style.width = "250px";
+
+    
+    // closeNav()
+    //      document.getElementById("mysidebar").style.width = "0";
+
+
+// })

@@ -421,12 +421,13 @@
 .leftmenu__container {
     align-items: center;
     background: #474749;
-    height: 1000px;
+    height: 20px;
     justify-content: center;
     text-decoration: none;
     width: 15%;
+    position: sticky;
     transform: translateX(-100%);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 
@@ -438,12 +439,12 @@
     z-index: 999;
     color: #728342;
 
-} */
+}
+*/
 
 
 .out {
-    position: sticky;
-    transition: all 1s;
+    transition: all 0.5s;
     transform: translateX(0%);
 }
 
@@ -993,4 +994,56 @@
     transform: translateX(0%);
 }
 
+/* | test | */
 
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 900;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 80px;
+}
+  
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+  
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+
+/* #main {
+    transition: margin-left .5s;
+    padding: 16px;
+} */
+  
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 80px;}
+    .sidebar a {font-size: 18px;}
+}
+
+.open {
+    width: 250px;
+}
