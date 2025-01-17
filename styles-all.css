@@ -1086,8 +1086,8 @@
     cursor: pointer;
 }
 
-.sidebar.active #btn {
-    left: 90%;
+.top {
+    padding-left: 30px;
 }
 
 .sidebar .top .logo {
@@ -1129,6 +1129,7 @@
     width: 90%;
     margin: 0.8rem auto;
     line-height: 50px;
+    z-index: 998;
 
 }
 
@@ -1136,21 +1137,27 @@
     color: #fff;
     display: flex;
     align-items: center;
-    border-radius: 0.8rem;
+    border-radius: 4px;
     text-decoration: none;
+    z-index: 998;
 }
 
 .sidebar ul li a:hover {
-    background-color: #fff;
+    background-color: #7a7a7d;
     color: #06ac9e;
     text-decoration: none;
 }
 
+.bx {
+    scale: 2;
+
+}
+
 .sidebar ul li a i {
-    min-width: 50px;
+    min-width: 70px;
     text-align: center;
     height: 50px;
-    border-radius: 12px;
+    border-radius: 4px;
     line-height: 50px;
     text-decoration: none;
 }
