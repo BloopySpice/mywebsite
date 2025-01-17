@@ -28,19 +28,19 @@ Due to
 /* || MOBILE MENU DROP DOWN || */
 
 
-const menu = document.querySelector('#mobile-menu');
-const menuLinks = document.querySelector('.nav__menu');
+//  const menu = document.querySelector('#mobile-menu');
+//  const menuLinks = document.querySelector('.nav__menu');
 
 
-// const menuBar = document.querySelector('.mysidebar')
+// // // const menuBar = document.querySelector('.mysidebar')
 
-menu.addEventListener('click', function() {
-    menu.classList.toggle('is-active');
+//  menu.addEventListener('click', function() {
+//      menu.classList.toggle('is-active');
 
-    document.getElementById("mysidebar").style.width = "250px";
+//     document.getElementById("mysidebar").style.width = "250px";
     // menuBar.classList.toggle('open');
 
-
+//  })
 
     // menuLinks.classList.toggle('active');
 
@@ -50,7 +50,7 @@ menu.addEventListener('click', function() {
 
 // closeNav()
 //     document.getElementById("mysidebar").style.width = "0";
-})
+
 
 //  const menuActive = document.querySelector('.nav__toggle');
 
