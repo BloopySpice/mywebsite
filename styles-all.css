@@ -44,6 +44,7 @@
     --grey30: hsl(0, 0%, 30%);
     --grey50: hsl(0, 0%, 50%);
     --grey70: hsl(0, 0%, 70%);
+    --grey80: hsl(0, 0%, 80%);
     --grey90: hsl(0, 0%, 90%);
 
     /* BLUE */
@@ -61,6 +62,9 @@
     --boxshadow50: 0 0 2px hsl(240, 1%, 50%);
     --boxshadow70: 0 0 2px hsl(240, 1%, 70%);
     --boxshadow90: 0 0 2px hsl(240, 1%, 90%);
+
+        /* Transparent Colour */
+    --transbackground: hsla(0, 13%, 6%, 0.184);
 }
 
 
@@ -361,7 +365,7 @@
 
     .project__box__options:not(:hover) { /* This mirror operatation is running as **not** and is for after hover effect */
         /* background-color: #474749; */
-        background-color: #110d0d2f;
+        background-color: var(--transbackground);
         height: 400px;
         margin: 10px;
         width: 250px;
@@ -371,11 +375,10 @@
 
         animation-name: box-expand-middle-reverse;
         animation-duration: 0.2s;
-        box-shadow: 0 0 2px #7a7a7d;
     }
 
     .project__box__options:hover {
-        background-color: #110d0d1a;
+        background-color: var(--transbackground);
         height: 410px;
         margin: 5px;
         width: 800px;
@@ -385,7 +388,6 @@
 
         animation-name: box-expand-middle;
         animation-duration: 0.2s;
-        box-shadow: 0 0 2px #7a7a7d;
     }
 }
 
@@ -426,6 +428,7 @@
 
 .project__box__options__selection:hover {
     background-color: #7a7a7d;
+    box-shadow: var(--boxshadow90);
     height: 210px;
     margin: 5px;
     width: 210px;
@@ -444,7 +447,7 @@
 /* || MID - INFO BOX || */
 
 .summary__box {
-    background-color: #474749;
+
     border-radius: 5px;
     display: flex;
     height: 410px;
@@ -452,7 +455,9 @@
     max-width: 800px;
     margin: var(--margin-s);
     padding: var(--margin-m);
-    box-shadow: var(--boxshadow70);
+    background-color: #110d0d2f;
+    border-radius: 15px;
+    box-shadow: var(--boxshadow90)
 }
 
 .summary__container {
@@ -592,6 +597,17 @@
 .bigui-grey90 { font: var(--bigui); color: var(--grey90); }
 .pui-grey90 { font: var(--pui); color: var(--grey90); }
 .smallui-grey90 { font: var(--smallui); color: var(--grey90); }
+
+/* FONTS grey 90% */
+
+.h1-grey80 { font: var(--h1); color: var(--grey80); }
+.h2-grey80 { font: var(--h2); color: var(--grey80); }
+.h3-grey80 { font: var(--h3); color: var(--grey80); }
+.h4-grey80 { font: var(--h4); color: var(--grey80); }
+.h5-grey80 { font: var(--h5); color: var(--grey80); }
+.big-grey80 { font: var(--big); color: var(--grey80); }
+.p-grey80 { font: var(--p); color: var(--grey80); }
+.small-grey80 { font: var(--small); color: var(--grey80); }
 
 @media screen and (max-width: 960px) {
 
