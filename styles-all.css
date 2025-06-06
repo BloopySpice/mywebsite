@@ -29,7 +29,6 @@
     --small: 1.25/1.6 var(--ff);
     
     /* FONT UI */
-    --ff: "Inter", sans-serif;
     --h1ui: 4rem/1em var(--ff); 
     --h2ui: 3rem/1.2em var(--ff); 
     --h3ui: 2.25rem/1.2em var(--ff); 
