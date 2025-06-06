@@ -54,7 +54,13 @@
     --blue70: hsl(175, 93%, 70%);
     --blue90: hsl(175, 93%, 90%);
 
-    
+        /* Gradient Colours */
+    --gradient: linear-gradient(90deg, rgba(37, 37, 37, 1) 0%, rgba(51, 76, 79, 1) 40%, rgba(51, 76, 79, 1) 60%, rgba(37, 37, 37, 1) 100%);
+    --boxshadow10: 0 0 2px hsl(240, 1%, 10%);
+    --boxshadow30: 0 0 2px hsl(240, 1%, 30%);
+    --boxshadow50: 0 0 2px hsl(240, 1%, 50%);
+    --boxshadow70: 0 0 2px hsl(240, 1%, 70%);
+    --boxshadow90: 0 0 2px hsl(240, 1%, 90%);
 }
 
 
@@ -69,7 +75,7 @@
 .full__body {
     /*background-color: #252525; */
     background: #252525;
-    background: linear-gradient(90deg, rgba(37, 37, 37, 1) 0%, rgba(51, 76, 79, 1) 40%, rgba(51, 76, 79, 1) 60%, rgba(37, 37, 37, 1) 100%);
+    background: var(--gradient);
     height: 100%;
     padding-left: 10%;
     padding-right: 10%;
@@ -141,7 +147,7 @@
 .navbar {
     align-items: center;
     background: #252525;
-    background: linear-gradient(90deg, rgba(37, 37, 37, 1) 0%, rgba(51, 76, 79, 1) 40%, rgba(51, 76, 79, 1) 60%, rgba(37, 37, 37, 1) 100%);
+    background: var(--gradient);
 
     display: flex;
     font-size: 1.2rem;
@@ -277,19 +283,35 @@
 
 /* || MID - PROJECTS || */
 
+.section__container {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    max-width: 800px;
+}
+
+.section__wrapper {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    max-width: 800px;
+}
 
 
 .showcase__box {
 
-    background-color: #474749;
-    border-radius: 5px;
+    /* background-color: #474749; */
+    /*background-color: rgb(41, 59, 61);*/
+
     display: flex;
     flex: 1 0 300px;
     min-height: 200px;
     margin: var(--margin-s);
+    padding: var(--margin-m);
     min-width: 200px;
-    padding: 20px;
-    box-shadow: 0 0 2px #7a7a7d;
+    background-color: #110d0d2f;
+    border-radius: 15px;
+    box-shadow: var(--boxshadow90)
 }
 
 
@@ -320,7 +342,7 @@
 }
 
 .project__box__options {
-    background-color: #474749;
+    /* background-color: #474749; */
     border-radius: 5px;
     display: flex;
     height: 400px;
@@ -328,16 +350,23 @@
     text-decoration: none;
     width: 250px;
     justify-content: center;
+    /* box-shadow: var(--boxshadow70) */
+
+    background-color: #110d0d2f;
+    border-radius: 15px;
+    box-shadow: var(--boxshadow90)
 }
 
 @media screen and (min-width: 960px) {
 
     .project__box__options:not(:hover) { /* This mirror operatation is running as **not** and is for after hover effect */
-        background-color: #474749;
+        /* background-color: #474749; */
+        background-color: #110d0d2f;
         height: 400px;
         margin: 10px;
         width: 250px;
         z-index: 101;
+        box-shadow: var(--boxshadow90);
 
 
         animation-name: box-expand-middle-reverse;
@@ -346,11 +375,12 @@
     }
 
     .project__box__options:hover {
-        background-color: #7a7a7d;
+        background-color: #110d0d1a;
         height: 410px;
         margin: 5px;
         width: 800px;
         z-index: 101;
+        box-shadow: var(--boxshadow90);
 
 
         animation-name: box-expand-middle;
@@ -421,16 +451,8 @@
     min-width: 200px;
     max-width: 800px;
     margin: var(--margin-s);
-    padding: 20px;
-    box-shadow: 0 0 2px #7a7a7d;
-    
-    /*background-color: #474749;
-    border-radius: 5px;
-    display: flex;
-    flex: 1 0 300px;
-    height: 410px;
-    margin: 10px;
-    max-width: 780px;*/
+    padding: var(--margin-m);
+    box-shadow: var(--boxshadow70);
 }
 
 .summary__container {
@@ -462,6 +484,7 @@
         margin: 10px;
         min-width: 170px;
         width: 400px;
+        box-shadow: var(--boxshadow70)
     }
 
     .project__box__options:hover {
@@ -591,7 +614,7 @@
     .h1-grey90 { font: var(--h2); color: var(--grey90); }
     .h2-grey90 { font: var(--h3); color: var(--grey90); }
     .h3-grey90 { font: var(--h4); color: var(--grey90); }
-    .h4-grey90 { font: var(--h5); color: var(--grey90); }
+    .h4-grey90 { font: var(--h4); color: var(--grey90); }
     .h5-grey90 { font: var(--big); color: var(--grey90); }
 }
 
