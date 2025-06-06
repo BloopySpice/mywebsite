@@ -67,7 +67,9 @@
 /* - Excluding "NAVIGATION BAR" to enable full screen width on drop down bar - */
 
 .full__body {
-    background-color: #252525;
+    /*background-color: #252525; */
+    background: #252525;
+    background: linear-gradient(90deg, rgba(37, 37, 37, 1) 0%, rgba(51, 76, 79, 1) 40%, rgba(51, 76, 79, 1) 60%, rgba(37, 37, 37, 1) 100%);
     height: 100%;
     padding-left: 10%;
     padding-right: 10%;
@@ -131,73 +133,16 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-/* ANIMATED BIGGER SQUARES */
-/* BIG VERSIONS -- COMING SOON PAGE */
-
-.square__big {
-    align-content: center;
-    border-radius: 8px;
-    border: 8px solid aqua;
-    box-shadow: 0 0 8px aqua, 0 0 8px aqua inset;
-    height: 200px;
-    margin-top: 60px;
-    width: 200px;
-    z-index: 10;
-
-    animation-name: spin;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    /* animation-play-state: paused; */
-    animation-timing-function: linear;
-}
-
-.square__big__small {
-    border-radius: 15px;
-    border: 8px solid aqua;
-    box-shadow: 0 0 8px aqua, 0 0 8px aqua inset;
-    height: 150px;
-    justify-self: center;
-    width: 150px;
-    z-index: 10;
-
-    animation-name: spin;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-    /* animation-play-state: paused; */
-    animation-timing-function: linear;
-    animation-direction: reverse;
-}
-
-
-
-
-
-
-
-
-
-
-
 .logo_whole {
     align-items: center;
     position: absolute;
-
-
-
 }
 
 .navbar {
     align-items: center;
     background: #252525;
+    background: linear-gradient(90deg, rgba(37, 37, 37, 1) 0%, rgba(51, 76, 79, 1) 40%, rgba(51, 76, 79, 1) 60%, rgba(37, 37, 37, 1) 100%);
+
     display: flex;
     font-size: 1.2rem;
     height: 80px;
@@ -216,10 +161,6 @@
     padding: 0 50px;
     width: 100%;
     z-index: 1;
-}
-
-.fa-gem {
-    margin-right: 0.5rem;
 }
 
 .nav__menu {
