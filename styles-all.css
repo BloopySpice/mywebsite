@@ -311,6 +311,7 @@
 
 .header__container {
     justify-content: center;
+    align-content: center;
     padding: 80px;
 }
 
@@ -356,7 +357,30 @@
 
 
 .showcase__box {
-    max-width: 781px;
+
+    background-color: #474749;
+    border-radius: 5px;
+    display: flex;
+    flex: 1 0 300px;
+    min-height: 200px;
+    margin: var(--margin-s);
+    /* margin: 10px; */ 
+    min-width: 200px;
+    padding: 20px;
+    box-shadow: 0 0 2px #7a7a7d;
+
+    /* background-color: #474749;
+    border-radius: 5px;
+    display: flex;
+    height: 200px;
+    margin: 10px;
+    text-decoration: none;
+    min-width: 200px;
+    justify-content: center; */
+
+    
+    
+    /*max-width: 781px;
     min-width: 200px;
     height: 200px;
     background-color: #474749;
@@ -365,7 +389,7 @@
     margin: 20px;
     flex-wrap: flex;
     display: flex;
-    box-shadow: 0 0 2px #7a7a7d;
+    box-shadow: 0 0 2px #7a7a7d; */
 }
 
 
