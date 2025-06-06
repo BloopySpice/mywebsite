@@ -248,7 +248,8 @@
 .header__container {
     justify-content: center;
     align-content: center;
-    padding: 80px;
+    padding: 40px;
+    padding-top: 80px;
 }
 
 .header__box {
@@ -600,7 +601,7 @@
     .h2-blue35 { font: var(--h4); color: var(--blue35); }
     .h3-blue35 { font: var(--h5); color: var(--blue35); }
     .h4-blue35 { font: var(--big); color: var(--blue35); }
-    .h5-blue35 { font: var(--p); color: var(--blue35); }
+    .h5-blue35 { font: var(--small); color: var(--blue35); }
 
         /* FONTS grey 70% */
 
@@ -608,7 +609,7 @@
     .h2-grey70 { font: var(--h4); color: var(--grey70); }
     .h3-grey70 { font: var(--h5); color: var(--grey70); }
     .h4-grey70 { font: var(--big); color: var(--grey70); }
-    .h5-grey70 { font: var(--p); color: var(--grey70); }
+    .h5-grey70 { font: var(--small); color: var(--grey70); }
 
         /* FONTS grey 90% */
 
@@ -616,7 +617,7 @@
     .h2-grey90 { font: var(--h4); color: var(--grey90); }
     .h3-grey90 { font: var(--h5); color: var(--grey90); }
     .h4-grey90 { font: var(--big); color: var(--grey90); }
-    .h5-grey90 { font: var(--p); color: var(--grey90); }
+    .h5-grey90 { font: var(--small); color: var(--grey90); }
 }
 
 /* test */
