@@ -50,8 +50,8 @@
 
     /* BLUE */
     --blue10: hsl(175, 93%, 10%);
-    --blue35: hsl(175, 93%, 35%);
     --blue30: hsl(175, 93%, 30%);
+    --blue35: hsl(175, 93%, 35%);
     --blue50: hsl(175, 93%, 50%);
     --blue70: hsl(175, 93%, 70%);
     --blue90: hsl(175, 93%, 90%);
@@ -327,12 +327,6 @@
     justify-content: center;
 }
 
-.project__box__spacer {
-    height: 100px;
-    padding-top: 330px;
-    width: 100%;
-}
-
 .project__box__container__balan {
     align-content: center;
     display: flex;
@@ -346,8 +340,8 @@
     justify-content: center;
 }
 
-.project__box__options {
-    /* background-color: #474749; */
+/*.project__box__options {
+    background-color: #474749;
     border-radius: 5px;
     display: flex;
     height: 400px;
@@ -355,7 +349,23 @@
     text-decoration: none;
     width: 250px;
     justify-content: center;
-    /* box-shadow: var(--boxshadow70) */
+    box-shadow: var(--boxshadow70)
+
+
+    
+    background-color: #110d0d2f;
+    border-radius: 15px;
+    box-shadow: var(--boxshadow90)
+}*/
+
+
+.project__box__options {
+
+    border-radius: 5px;
+    height: 400px;
+    margin: 10px;
+    width: 250px;
+
 
     background-color: #110d0d2f;
     border-radius: 15px;
@@ -364,9 +374,8 @@
 
 @media screen and (min-width: 960px) {
 
-    .project__box__options:not(:hover) { /* This mirror operatation is running as **not** and is for after hover effect */
-        /* background-color: #474749; */
-        background-color: var(--transbackground);
+    /*.project__box__options:not(:hover) { /* This mirror operatation is running as **not** and is for after hover effect */
+        /*background-color: var(--transbackground);
         height: 400px;
         margin: 10px;
         width: 250px;
@@ -389,7 +398,38 @@
 
         animation-name: box-expand-middle;
         animation-duration: 0.2s;
+    }*/
+
+    .project__box__options:not(:hover) { /* This mirror operatation is running as **not** and is for after hover effect */
+        /* background-color: #474749; */
+        background-color: var(--transbackground);
+        height: 400px;
+        margin: 10px;
+        width: 250px;
+        z-index: 101;
+        box-shadow: var(--boxshadow90);
+        align-content: center;
+
+
+        animation-name: box-expand-middle-reverse;
+        animation-duration: 0.2s;
     }
+
+    .project__box__options:hover {
+        background-color: var(--transbackground);
+        height: 410px;
+        margin: 5px;
+        width: 800px;
+        z-index: 101;
+        box-shadow: var(--boxshadow90);
+        align-content: center;
+
+
+        animation-name: box-expand-middle;
+        animation-duration: 0.2s;
+    }
+
+
 }
 
 @keyframes box-expand-middle {
@@ -532,6 +572,19 @@
     }
 }
 
+.icon__center {
+    align-self: center;
+    justify-self: center;
+    margin: 1rem;
+
+}
+
+.title__center {
+    align-self: center;
+    justify-content: center;
+    margin: 1rem;
+
+}
 
 
 .centeralign {
