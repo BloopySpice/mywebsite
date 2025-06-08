@@ -9,7 +9,10 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
 
+    <!-- ### ENTIRETY OF THE PAGE ### -->
     <body>
+
+        <!-- ### THE HEADER/NAVIGATION BAR ### -->
         <nav class="header">
             <div class="header-contents">
 
@@ -21,7 +24,10 @@
             </div>
         </nav>
 
+        <!-- ### EVERYTHING BELOW HEADER/NAVIGATION BAR ### -->
         <section class="body">
+
+            <!-- ### THE TITLE ### -->
             <div class="title">
                 <div class="hidden">
                 </div>
@@ -34,70 +40,93 @@
                 </div>
             </div>
 
+            <!-- ### THE BODY BELOW TITLE ### -->
             <section class="body-contents">
-                <div class="container">
+
+                <!-- ### TEXT BOXES ### -->
+                <section class="section">
+                    <section class="container">
+                        <div class="container-wrapper">
+                            <div class="showcase-wrapper">
+                                <div class="showcase hidden">
+                                </div>
+                                <div class="showcase hidden">
+                                    <p class="smallui-grey90">Welcome to my personal website! This page is dedicated to updating and documenting personal IT projects. It includes three main project headers; Homelabbing, Programming and 3D Printing.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <!-- ### PROJECT LINKS ### -->
+                <section class="section">
+                    <div class="sub-title hidden">
+                        <div class="h4-grey90">Projects</div>
+                    </div>
+                    <div class="container">
+                        <div class="container-wrapper">
+
+                            <!-- ### HOMELAB LINK ### -->
+                            <a href="/homelab.html" class="redirect-boxes hidden">
+                                <div class="icon-wrapper">
+                                    <img src="Icons/servers1.png" width="90" height="90">
+                                </div>
+                                <div class="title-wrapper">
+                                    <div class="big-grey80 centeralign">Homelab</div>
+                                </div>
+                            </a>
+
+                            <!-- ### PROGRAMMING LINK ### -->
+                            <a href="/programming.html" class="redirect-boxes hidden">
+                                <div class="icon-wrapper">
+                                    <img src="Icons/web-programming1.png" width="100" height="100">
+                                </div>
+                                <div class="title-wrapper">
+                                    <div class="big-grey80 centeralign">Programming</div>
+                                </div>
+                            </a>
+
+                            <!-- ### 3D PRINTING LINK ### -->
+                            <a href="/3dprinting.html" class="redirect-boxes hidden">
+                                <div class="icon-wrapper">
+                                    <img src="Icons/3d-printing1.png" width="90" height="90">
+                                </div>
+                                <div class="title-wrapper">
+                                    <div class="big-grey80 centeralign">3D Printing</div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ### TEXT BOXES ### -->
+                <section class="container">
                     <div class="container-wrapper">
                         <div class="showcase-wrapper">
-                            <div class="showcase hidden">
-                            </div>
-                            <div class="showcase hidden">
-                                <p class="smallui-grey90">Welcome to my personal website! This page is dedicated to updating and documenting personal IT projects. It includes three main project headers; Homelabbing, Programming and 3D Printing.</p>
-                            
+                            <div class="showcase hidden"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ### PAGE SUMMARY ### -->
+                <section class="section">
+                    <div class="sub-title hidden">
+                        <div class="h4-grey90">Summary</div>
+                    </div>
+                    <div class="container">
+                        <div class="container-wrapper">
+                            <div class="showcase-wrapper">
+                                <div class="summary hidden">
+                                    <p class="smallui-grey90"> This is test writing to see how it sits inside the summary box at the bottom of the new webpage.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
 
-
-                <div class="sub-title hidden">
-                    <div class="h4-grey90">Projects</div>
-                </div>
-
-                <div class="container">
-                    <div class="container-wrapper">
-
-                        <a href="/homelab.html" class="redirect-boxes hidden">
-                            <div class="icon-wrapper">
-                                <img src="Icons/servers1.png" width="90" height="90">
-                            </div>
-                            <div class="title-wrapper">
-                                <div class="big-grey80 centeralign">Homelab</div>
-                            </div>
-                        </a>
-
-                        <a href="/programming.html" class="redirect-boxes hidden">
-                            <div class="icon-wrapper">
-                                <img src="Icons/web-programming1.png" width="100" height="100">
-                            </div>
-                            <div class="title-wrapper">
-                                <div class="big-grey80 centeralign">Programming</div>
-                            </div>
-                        </a>
-
-                        <a href="/3dprinting.html" class="redirect-boxes hidden">
-                            <div class="icon-wrapper">
-                                <img src="Icons/3d-printing1.png" width="90" height="90">
-                            </div>
-                            <div class="title-wrapper">
-                                <div class="big-grey80 centeralign">3D Printing</div>
-                            </div>
-                        </a>
-
-                    </div>
-                </div>
-
-                <div class="sub-title hidden">
-                    <div class="h4-grey90 centeralign">Summary</div>
-                </div>
-
-                <div class="container">
-                    <div class="container-wrapper">
-                        <div class="summary hidden">
-                            <p class="smallui-grey90"> This is test writing to see how it sits inside the summary box at the bottom of the new webpage.</p>
-                        </div>
-                    </div>
-                </div>
             </section>
+            
         </section>
 
         <script src="app.js"></script>

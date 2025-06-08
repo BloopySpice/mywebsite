@@ -240,17 +240,6 @@
     justify-content: center;
 }
 
-.body-contents {
-    align-content: center;
-    justify-content: center;
-    justify-self: center;
-    width: 100%;
-}
-
-.section {
-    justify-self: center;
-}
-
 .container {
     align-content: center;
     display: flex;
@@ -330,8 +319,17 @@
         border-radius: 15px;
         box-shadow: var(--boxshadow90);
     }
+    
+    .section {
+        justify-self: center;
+    }
 
-
+    .body-contents {
+        align-content: center;
+        justify-content: center;
+        justify-self: center;
+        width: 100%;
+    }
 }
 
 @keyframes box-expand-middle {
@@ -359,13 +357,13 @@
 
     .redirect-boxes {
         background-color: var(--transbackground);
-        border-radius: 5px;
+        border-radius: 15px;
         display: flex;
         flex-wrap: wrap;
         height: 200px;
         margin: 10px;
         min-width: 170px;
-        width: 400px;
+        width: 100%;
         box-shadow: var(--boxshadow90)
     }
 
@@ -373,7 +371,7 @@
         background-color: var(--transbackgroundhover);
         height: 210px;
         margin: 5px;
-        width: 410px;
+        width: 100%;
         box-shadow: var(--boxshadow90)
     }
 
@@ -382,7 +380,7 @@
         display: flex;
         flex-wrap: wrap;
         flex: 1 0 300px;
-        max-width: 80%;
+        width: 100%;
         justify-content: center;
     }
 
@@ -395,9 +393,11 @@
         display: flex;
         flex: 1 0 300px;
         min-height: 200px;
-        margin: var(--margin-s);
+        margin-bottom: var(--margin-s);
+        margin-top: var(--margin-s);
         padding: var(--margin-m);
         min-width: 200px;
+        width: 100%;
         background-color: #110d0d2f;
         border-radius: 15px;
         box-shadow: var(--boxshadow90)
@@ -408,15 +408,26 @@
         flex: 1 0 300px;
         min-height: 200px;
         min-width: 200px;
-        margin: var(--margin-s);
+        margin-bottom: var(--margin-s);
+        margin-top: var(--margin-s);
         padding: var(--margin-m);
+        width: 100%;
         background-color: #110d0d2f;
         border-radius: 15px;
         box-shadow: var(--boxshadow90);
     }
 
-    
+    .section {
+        justify-self: center;
+        width: 100%;
+    }
 
+    .body-contents {
+        align-content: center;
+        justify-content: center;
+        justify-self: center;
+        width: 100%;
+    }
 }
 
 .icon-wrapper {
