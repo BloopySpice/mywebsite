@@ -6,9 +6,8 @@
     text-decoration: none;
 }
 
-
 :root {
-    /* Fonts */
+    /* ### FONTS ###*/
     font-size: 20px;
     --margin-xxs: 0.25rem;
     --margin-xs: 0.5rem;
@@ -18,7 +17,9 @@
     --margin-xl: 1.75rem;
     --margin-xxl: 2.5rem;
 
-    /* FONT LANDING PAGE /*/
+
+    /*### FONT LANDING PAGE ###*/
+
     --ff: "Inter", sans-serif;
     --h1: bold 4rem/1em var(--ff); 
     --h2: bold 3rem/1.2em var(--ff); 
@@ -29,7 +30,7 @@
     --p: 1.25/1.6 var(--ff);
     --small: 1.25/1.6 var(--ff);
     
-    /* FONT UI */
+    /*### FONT UI ###*/
     --h1ui: 4rem/1em var(--ff); 
     --h2ui: 3rem/1.2em var(--ff); 
     --h3ui: 2.25rem/1.2em var(--ff); 
@@ -39,8 +40,8 @@
     --pui: .8/1.6 var(--ff);
     --smallui: .75/1.8 var(--ff);
 
-        /* Colors */
-    /* GREY //*/
+    /*### COLOURS ###*/
+    /*### GREY ###*/
     --grey10: hsl(0, 0%, 10%);
     --grey30: hsl(0, 0%, 30%);
     --grey50: hsl(0, 0%, 50%);
@@ -48,7 +49,7 @@
     --grey80: hsl(0, 0%, 80%);
     --grey90: hsl(0, 0%, 90%);
 
-    /* BLUE */
+    /*### BLUE ###*/
     --blue10: hsl(175, 93%, 10%);
     --blue30: hsl(175, 93%, 30%);
     --blue35: hsl(175, 93%, 35%);
@@ -56,22 +57,20 @@
     --blue70: hsl(175, 93%, 70%);
     --blue90: hsl(175, 93%, 90%);
 
-        /* Gradient Colours */
+    /*### GRADIENT COLOURS ###*/
     --gradient: linear-gradient(90deg, rgba(37, 37, 37, 1) 0%, rgba(51, 76, 79, 1) 40%, rgba(51, 76, 79, 1) 60%, rgba(37, 37, 37, 1) 100%);
     --boxshadow10: 0 0 2px hsl(240, 1%, 10%);
     --boxshadow30: 0 0 2px hsl(240, 1%, 30%);
     --boxshadow50: 0 0 2px hsl(240, 1%, 50%);
     --boxshadow70: 0 0 2px hsl(240, 1%, 70%);
-    --boxshadow90: 0 0 2px hsl(240, 1%, 90%);
+    --boxshadow90: 0 0 3px hsl(240, 1%, 90%);
+    --boxshadow90-10: 0 0 10px hsl(240, 1%, 90%);
 
-        /* Transparent Colour */
-    --transbackground: hsla(0, 13%, 6%, 0.184);
+    /*### TRANSPARANT COLOURS ###*/
+    /*--transbackground: hsla(0, 13%, 6%, 0.188);*/
+    --transbackground: hsla(0, 13%, 6%, 0.288);
+    --transbackgroundhover: hsla(0, 13%, 6%, 0.384);
 }
-
-
-
-
-
 
 /* || BACKGROUND BODY || */
 /* - Setting margins on either side of the screen to keep neat order throught the site - */
@@ -86,13 +85,6 @@
     padding-right: 10%;
     width: 100%;
 }
-
-
-
-
-
-
-
 
 /* || NAVIGATION BAR || */
 
@@ -195,8 +187,6 @@
     text-decoration: none;
 }
 
-
-
 .button {
     align-items: center;
     background: #06ac9e;
@@ -213,8 +203,6 @@
     top: 20%;
 }
 
-
-
 .button1 {
     align-items: center;
     background: #06ac9e;
@@ -225,11 +213,7 @@
     justify-content: center;
     text-decoration: none;
     width: 100px;
-
 }
-
-
-
 
 /* || MOBILE MENU - NAVIGATION BAR || */
 
@@ -277,15 +261,6 @@
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
 /* || MID - PROJECTS || */
 
 .section__container {
@@ -302,12 +277,7 @@
     max-width: 800px;
 }
 
-
 .showcase__box {
-
-    /* background-color: #474749; */
-    /*background-color: rgb(41, 59, 61);*/
-
     display: flex;
     flex: 1 0 300px;
     min-height: 200px;
@@ -318,7 +288,6 @@
     border-radius: 15px;
     box-shadow: var(--boxshadow90)
 }
-
 
 /* || MID - PROJECTS || */
 
@@ -339,25 +308,6 @@
     max-width: 800px;
     justify-content: center;
 }
-
-/*.project__box__options {
-    background-color: #474749;
-    border-radius: 5px;
-    display: flex;
-    height: 400px;
-    margin: 10px;
-    text-decoration: none;
-    width: 250px;
-    justify-content: center;
-    box-shadow: var(--boxshadow70)
-
-
-    
-    background-color: #110d0d2f;
-    border-radius: 15px;
-    box-shadow: var(--boxshadow90)
-}*/
-
 
 .project__box__options {
 
@@ -401,7 +351,7 @@
     }*/
 
     .project__box__options:not(:hover) { /* This mirror operatation is running as **not** and is for after hover effect */
-        /* background-color: #474749; */
+
         background-color: var(--transbackground);
         height: 400px;
         margin: 10px;
@@ -416,7 +366,7 @@
     }
 
     .project__box__options:hover {
-        background-color: var(--transbackground);
+        background-color: var(--transbackgroundhover);
         height: 410px;
         margin: 5px;
         width: 800px;
@@ -451,18 +401,6 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* || MID - INFO BOX || */
 
 .summary__box {
@@ -486,25 +424,6 @@
 }
 
 
-
-
-
-
-
-        /*background-color: var(--transbackground);
-        height: 400px;
-        margin: 10px;
-        width: 250px;
-        z-index: 101;
-        box-shadow: var(--boxshadow90);
-        align-content: center;
-
-
-        animation-name: box-expand-middle-reverse;
-        animation-duration: 0.2s;
-
-
-
 /* || MOBILE MENU - MID PROJECT  || */
 
 @media screen and (max-width: 960px) {
@@ -522,7 +441,7 @@
     }
 
     .project__box__options:hover {
-        background-color: var(--transbackground);
+        background-color: var(--transbackgroundhover);
         height: 210px;
         margin: 5px;
         width: 410px;
@@ -544,13 +463,6 @@
         justify-content: center;
     }
 
-    .project__box__options__selection:hover {
-        background-color: #7a7a7d;
-        height: 210px;
-        margin: 5px;
-        width: 210px;
-    }
-
     .summary__box {
         background-color: var(--transbackground);
         border-radius: 5px;
@@ -566,16 +478,13 @@
     align-self: center;
     justify-self: center;
     margin: 1rem;
-
 }
 
 .title__center {
     align-self: center;
     justify-content: center;
     margin: 1rem;
-
 }
-
 
 .centeralign {
     align-self: center;
