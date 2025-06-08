@@ -540,6 +540,7 @@
         display: flex;
         flex-wrap: wrap;
         flex: 1 0 300px;
+        max-width: 80%;
         justify-content: center;
     }
 
@@ -557,7 +558,6 @@
         flex: 1 0 170px;
         height: 410px;
         margin: 10px;
-        max-width: 400px;
         box-shadow: var(--boxshadow90)
     }
 }
