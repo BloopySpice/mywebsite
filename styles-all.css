@@ -259,10 +259,10 @@
 .showcase {
     display: flex;
     flex: 1 0 300px;
-    height: 200px;
+    min-height: 200px;
     margin: var(--margin-s);
     padding: var(--margin-m);
-    -width: 200px;
+    min-width: 200px;
     background-color: #110d0d2f;
     border-radius: 15px;
     box-shadow: var(--boxshadow90)
@@ -274,7 +274,7 @@
     align-content: center;
     justify-content: center;
     justify-self: center;
-    width: 80%;
+    width: 100%;
 }
 
 .container {
@@ -292,7 +292,6 @@
 
 .section {
     justify-self: center;
-    width: 60%;
 }
 
 .redirect-boxes {
@@ -360,22 +359,18 @@
 /* || MID - INFO BOX || */
 
 .summary {
-    height: 410px;
-    width: 800px;
+    display: flex;
+    flex: 1 0 300px;
+    min-height: 10px;
+    min-width: 200px;
     margin: var(--margin-s);
     padding: var(--margin-m);
     background-color: #110d0d2f;
     border-radius: 15px;
-    box-shadow: var(--boxshadow90)
+    box-shadow: var(--boxshadow90);
+
+
 }
-
-
-.summary__container {
-    align-content: center;
-    display: flex;
-    justify-content: center;
-}
-
 
 /* || MOBILE MENU - MID PROJECT  || */
 
@@ -416,15 +411,11 @@
         justify-content: center;
     }
 
-    .summary {
-        background-color: var(--transbackground);
-        border-radius: 5px;
-        display: flex;
-        flex: 1 0 170px;
-        height: 410px;
-        margin: 10px;
-        box-shadow: var(--boxshadow90)
+    .sub-title {
+        justify-self: center;
+        margin-top: 80px;
     }
+
 }
 
 .icon-wrapper {
