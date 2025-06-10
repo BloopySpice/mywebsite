@@ -213,7 +213,7 @@
 .title {
     justify-content: center;
     align-content: center;
-    padding: 40px;
+
     padding-top: 80px;
 }
 
@@ -281,12 +281,23 @@
         animation-duration: 0.2s;
     }
 
+    .text-box-wrapper {
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 0 300px;
+        min-width: 300px;
+        width: 100%;
+        justify-content: center;
+    }
+
     .text-box {
         display: flex;
         flex: 1 0 300px;
         min-height: 200px;
         margin: var(--margin-s);
         padding: var(--margin-m);
+        min-width: 300px;
         width: 790px;
         background-color: #110d0d2f;
         border-radius: 15px;
@@ -295,7 +306,7 @@
 
     .projects {
         display: flex;
-        flex: 1 0 300px;
+
         min-height: 100px;
         margin: var(--margin-s);
         padding: var(--margin-m);
@@ -384,6 +395,7 @@
         display: flex;
         flex-wrap: wrap;
         flex: 1 0 300px;
+        min-width: 300px;
         width: 100%;
         justify-content: center;
     }
@@ -391,11 +403,11 @@
     .text-box {
         display: flex;
         flex: 1 0 300px;
-        min-height: 200px;
+        min-height: 100px;
         margin-bottom: var(--margin-s);
         margin-top: var(--margin-s);
         padding: var(--margin-m);
-        min-width: 400px;
+        min-width: 300px;
         width: 100%;
         background-color: #110d0d2f;
         border-radius: 15px;
@@ -404,12 +416,12 @@
 
     .projects {
         display: flex;
-        flex: 1 0 300px;
+
         min-height: 100px;
         margin-bottom: var(--margin-s);
         margin-top: var(--margin-s);
         padding: var(--margin-m);
-        min-width: 400px;
+        min-width: 300px;
         width: 100%;
         background-color: #110d0d2f;
         border-radius: 15px;
