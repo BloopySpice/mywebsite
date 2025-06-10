@@ -534,8 +534,8 @@
 
 /* FONTS grey 90% */
 
-.h1-grey90 { font: var(--h1); color: var(--grey90); line-height: calc(3.1875/var(--space)* var(--vspace));}
-.h2-grey90 { font: var(--h2); color: var(--grey90); line-height: 1em; }
+.h1-grey90 { font: var(--h1); color: var(--grey90); }
+.h2-grey90 { font: var(--h2); color: var(--grey90); }
 .h3-grey90 { font: var(--h3); color: var(--grey90); }
 .h4-grey90 { font: var(--h4); color: var(--grey90); }
 .h5-grey90 { font: var(--h5); color: var(--grey90); }
