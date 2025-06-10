@@ -248,6 +248,13 @@
     box-shadow: var(--boxshadow90)
 }
 
+.invisible-table {
+  border-collapse:separate;
+  border: white;
+  padding: 1rem;
+}
+
+
 
 
 @media screen and (min-width: 960px) {
